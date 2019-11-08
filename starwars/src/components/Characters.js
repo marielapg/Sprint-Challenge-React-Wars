@@ -1,12 +1,7 @@
 import React from 'react';
-import Reactstrap from "reactstrap";
-import Card from "./Characters";
+import {Card } from "reactstrap";
 
 
-// const Card = `CharacterCards`{
-//     width: 35%;
-//     margin: 0 auto;
-//     }
 
     const Characters = props => {
         return(

@@ -1,12 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Characters from "./Characters"
 import axios from "axios";
-import Reactstrap from "reactstrap";
 
-// const Layout = `output`;
-//     display:flex;
-//     justify-content:space-evenly;
-// }
 
 
 
@@ -23,7 +18,7 @@ function CharactersData(){
 
     return (
         <div className = "container">
-            <Layout>
+            
             {WarsPeople.map(item =>{
                 return (
                     
@@ -37,7 +32,7 @@ function CharactersData(){
                 )
             })}
         
-            </Layout>   
+             
         </div>
 
     )
